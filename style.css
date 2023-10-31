@@ -142,6 +142,7 @@ header nav .search i {
 .intro button:hover {
   background-color: #fec86a;
   color: #34353b;
+  cursor: pointer;
 }
 
 .socials {
