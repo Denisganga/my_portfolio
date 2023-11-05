@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -476,3 +477,251 @@ header nav .search i {
   gap: 10px;
   margin-top: 7.5vh;
 }
+
+
+/* Additional styles for very small screens (screen width < 480px) */
+@media (max-width: 479px) {
+  header {
+    padding: 36px 10px; /* Further adjust padding for very small screens */
+  }
+
+  header nav {
+    padding: 10px 10px;
+  }
+
+  header nav ul li {
+    margin: 0 5px; /* Further reduce margin for list items for very small screens */
+  }
+
+  header nav .search {
+    width: 120px; /* Further reduce the width of the search bar for very small screens */
+  }
+
+  header nav .search input {
+    width: 60%;
+  }
+
+  header nav .search input::placeholder {
+    font-size: 12px; /* Further reduce the font size of the placeholder text */
+  }
+}
+
+/* Additional styles for smaller screens (screen width < 768px) */
+@media (max-width: 767px) {
+  .about {
+    padding: 60px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .about h1 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+  }
+
+  .about .description .line {
+    width: 60%; /* Adjust line width for smaller screens */
+    margin-right: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .about .description p {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+
+  .skills {
+    padding: 30px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .skills h1 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+  }
+
+  .cards {
+    gap: 10px; /* Adjust the gap between skill cards for smaller screens */
+  }
+
+  .skill-card {
+    height: 25vw; /* Adjust height for smaller screens */
+    width: 25vw; /* Adjust width for smaller screens */
+  }
+
+  .skill-card img {
+    height: 10vw; /* Adjust image size for smaller screens */
+    width: 10vw;
+  }
+
+  .skill-card h2 {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Additional styles for very small screens (screen width < 480px) */
+@media (max-width: 479px) {
+  .about {
+    padding: 50px 10px; /* Further adjust padding for very small screens */
+  }
+
+  .about h1 {
+    font-size: 30px; /* Further reduce font size for very small screens */
+  }
+
+  .about .description .line {
+    width: 80%; /* Further adjust line width for very small screens */
+    margin-right: 5px; /* Further reduce margin for very small screens */
+  }
+
+  .about .description p {
+    font-size: 14px; /* Further reduce font size for very small screens */
+  }
+
+  .skills {
+    padding: 20px 10px; /* Further adjust padding for very small screens */
+  }
+
+  .skills h1 {
+    font-size: 30px; /* Further reduce font size for very small screens */
+  }
+
+  .cards {
+    gap: 5px; /* Further adjust the gap between skill cards for very small screens */
+  }
+
+  .skill-card {
+    height: 30vw; /* Further adjust height for very small screens */
+    width: 30vw; /* Further adjust width for very small screens */
+  }
+
+  .skill-card img {
+    height: 12vw; /* Further adjust image size for very small screens */
+    width: 12vw;
+  }
+
+  .skill-card h2 {
+    font-size: 16px; /* Further reduce font size for very small screens */
+  }
+}
+
+/* Additional styles for smaller screens (screen width < 768px) */
+@media (max-width: 767px) {
+  .experience {
+    align-items: flex-start; /* Align content to the left for smaller screens */
+  }
+
+  .experience h1 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+    top: 10%; /* Adjust the position for smaller screens */
+    left: 10%;
+  }
+
+  .darker-div {
+    height: 7vh; /* Adjust height for smaller screens */
+  }
+
+  .lighter-div {
+    padding: 5vh 10px; /* Adjust padding for smaller screens */
+  }
+
+  .lighter-div .exp {
+    height: auto; /* Remove fixed height for smaller screens */
+    width: 100%; /* Use full width for smaller screens */
+    margin-left: 0; /* Remove margin for smaller screens */
+  }
+
+  .exp h2 {
+    font-size: 28px; /* Reduce font size for smaller screens */
+  }
+
+  .exp h2::before {
+    top: 10%; /* Adjust position for smaller screens */
+    left: -8%;
+  }
+
+  .exp-desc::before {
+    top: 55%; /* Adjust position for smaller screens */
+    left: -8%;
+  }
+
+  .exp-desc h3 {
+    font-size: 18px; /* Reduce font size for smaller screens */
+  }
+
+  .exp-desc p {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Additional styles for very small screens (screen width < 480px) */
+@media (max-width: 479px) {
+  .experience h1 {
+    font-size: 30px; /* Further reduce font size for very small screens */
+  }
+
+  .lighter-div {
+    padding: 5vh 5px; /* Further adjust padding for very small screens */
+  }
+
+  .exp h2 {
+    font-size: 24px; /* Further reduce font size for very small screens */
+  }
+
+  .exp h2::before {
+    height: 15px; /* Further reduce the size of the circle for very small screens */
+    width: 15px;
+    top: 8%;
+    left: -10%;
+  }
+
+  .exp-desc::before {
+    height: 150px; /* Further reduce the size of the vertical line for very small screens */
+    width: 2px;
+    top: 55%;
+    left: -10%;
+  }
+
+  .exp-desc h3 {
+    font-size: 16px; /* Further reduce font size for very small screens */
+  }
+
+  .exp-desc p {
+    font-size: 12px; /* Further reduce font size for very small screens */
+  }
+}
+/* Additional styles for smaller screens (screen width < 768px) */
+@media (max-width: 767px) {
+  .contact-me h1 {
+    font-size: 40px; /* Reduce font size for smaller screens */
+  }
+
+  .contact {
+    flex-direction: column; /* Stack contact cards vertically for smaller screens */
+  }
+
+  .contact-card {
+    margin-top: 20px; /* Increase the spacing between contact cards for smaller screens */
+  }
+
+  .contact-card i {
+    font-size: 24px; /* Reduce icon size for smaller screens */
+  }
+
+  .contact-card p {
+    font-size: 18px; /* Reduce text size for smaller screens */
+  }
+}
+
+/* Additional styles for very small screens (screen width < 480px) */
+@media (max-width: 479px) {
+  .contact-me h1 {
+    font-size: 30px; /* Further reduce font size for very small screens */
+  }
+
+  .contact-card {
+    margin-top: 15px; /* Further increase the spacing between contact cards for very small screens */
+  }
+
+  .contact-card i {
+    font-size: 20px; /* Further reduce icon size for very small screens */
+  }
+
+  .contact-card p {
+    font-size: 16px; /* Further reduce text size for very small screens */
+  }
+}
+
